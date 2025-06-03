@@ -49,9 +49,10 @@ const Contact = () => {
               className="bg-slate-800 border-slate-700 text-white"
             >
               <CardHeader className="text-center pb-4">
-                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Icon name={contact.icon} size={24} className="text-white" />
-                </div>
+                <Icon
+                  name={contact.icon}
+                  className="w-8 h-8 text-orange-500 mb-4"
+                />
                 <CardTitle className="text-lg font-semibold">
                   {contact.title}
                 </CardTitle>
@@ -71,7 +72,10 @@ const Contact = () => {
             минут
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+            <Button
+              size="lg"
+              className="bg-orange-600 hover:bg-orange-700 text-white text-lg px-8 py-4"
+            >
               <Icon name="MessageCircle" className="mr-2" />
               Написать в WhatsApp
             </Button>

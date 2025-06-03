@@ -64,13 +64,10 @@ const Services = () => {
               className="hover:shadow-lg transition-shadow duration-300 border-0 shadow-md"
             >
               <CardHeader className="text-center pb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Icon
-                    name={service.icon}
-                    size={32}
-                    className="text-blue-600"
-                  />
-                </div>
+                <Icon
+                  name={service.icon}
+                  className="w-12 h-12 text-orange-600 mb-4"
+                />
                 <CardTitle className="text-xl font-semibold text-slate-900">
                   {service.title}
                 </CardTitle>
@@ -88,7 +85,7 @@ const Services = () => {
                       <Icon
                         name="Check"
                         size={16}
-                        className="text-green-500 mr-2"
+                        className="text-orange-600 font-semibold text-lg"
                       />
                       {feature}
                     </li>

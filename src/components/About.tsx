@@ -51,8 +51,7 @@ const About = () => {
                   <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
                     <Icon
                       name={item.icon}
-                      size={20}
-                      className="text-blue-600"
+                      className="w-6 h-6 text-orange-600"
                     />
                   </div>
                   <div>
