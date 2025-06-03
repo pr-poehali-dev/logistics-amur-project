@@ -12,8 +12,8 @@ const Hero = () => {
             <span className="text-blue-400">AMUR</span> LOGISTICS
           </h1>
           <p className="text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Надежные грузоперевозки между Китаем и Россией. Ваш мост через
-            границы.
+            Профессиональные грузоперевозки Китай-Россия. Ваш надежный партнер в
+            международной логистике.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

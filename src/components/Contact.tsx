@@ -6,27 +6,27 @@ const Contact = () => {
   const contacts = [
     {
       icon: "Phone",
-      title: "Телефон",
-      info: "+7 (495) 123-45-67",
-      subinfo: "Звонки принимаются 24/7",
+      title: "Горячая линия",
+      info: "+7 (495) 777-88-99",
+      subinfo: "Работаем круглосуточно",
     },
     {
       icon: "Mail",
       title: "Email",
-      info: "info@amur-logistics.ru",
-      subinfo: "Ответим в течение часа",
+      info: "cargo@amur-logistics.ru",
+      subinfo: "Ответ в течение 2 часов",
     },
     {
       icon: "MapPin",
-      title: "Офис в Москве",
-      info: "ул. Логистическая, 15",
-      subinfo: 'БЦ "Транспорт", 5 этаж',
+      title: "Москва",
+      info: "Варшавское ш., 125с1",
+      subinfo: 'Логистический комплекс "Южные ворота"',
     },
     {
       icon: "MapPin",
-      title: "Офис в Пекине",
-      info: "Beijing Logistics Center",
-      subinfo: "Room 808, Building A",
+      title: "Пекин",
+      info: "朝阳区建国路88号",
+      subinfo: "SOHO现代城B座1008室",
     },
   ];
 
